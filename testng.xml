@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="IkkI Mobile Try" parallel="classes">
+  <test thread-count="5" name="Test"  preserve-order="true" parallel="methods"  >
+    <classes>
+      <class name="Tests.testing2"/>
+      <class name="Tests.testing3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
